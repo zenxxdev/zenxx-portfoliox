@@ -3,11 +3,11 @@
 
 ## 💡 Demo ön izleme
 
-- [Demo](https://x.vercel.app)
+- [Demo](https://linktree-opal-nu.vercel.app/)
 
 # Clone
 ```bash
-git clone https://github.com/parsherr/x
+git clone https://github.com/parsherr/linktree
 ```
 - Projeyi indirdikten sonra vsc de açın : [Visual Studio Code](https://code.visualstudio.com/).
 - Vsc'de projeyi açtıktan sonra "live server" eklentisi ile index.html'ye sağ tıklayıp `go live` seçeneğini seçin [Live Server](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer).
