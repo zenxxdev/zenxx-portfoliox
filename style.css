@@ -3,6 +3,8 @@
 :root {
   --bgColor: #3f3f3f;
   --bgColor2: #020202;
+  --BtnBgColor : transparent ;
+  --BtnFontColor : #fff;
   --accentColor: #fff;
   --font: "Karla", sans-serif;
   --delay: 0.3s;
@@ -109,8 +111,8 @@ body {
   
 .link {
   position: relative;
-  background-color: transparent;
-  color: var(--accentColor);
+  background-color: var(--BtnBgColor);
+  color: var(--BtnFontColor);
   border: solid var(--accentColor) 2px;
   border-radius: 10px;
   font-size: 1rem;
