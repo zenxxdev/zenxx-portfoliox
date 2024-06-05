@@ -1,66 +1,30 @@
-<h1 align="center">🌲 Linktree</h1>
-<h3 align="center">Simple site to group all my profiles on social networks in one place.</h3>
+<h3 align="center">Linktr.ee benzeri estetik site.</h3>
+<p align="center">Bu projeyi sıfırdan yapmadım, projenin temelini aldığım kişi : @johnggli</p>
 
-<p align="center">
-  <img alt="GitHub top language" src="https://img.shields.io/github/languages/top/johnggli/linktree?color=04D361&labelColor=000000">
-  
-  <a href="https://www.linkedin.com/in/johnggli/">
-    <img alt="Made by" src="https://img.shields.io/static/v1?label=made%20by&message=John%20Emerson&color=04D361&labelColor=000000">
-  </a>
-  
-  <img alt="Repository size" src="https://img.shields.io/github/repo-size/johnggli/linktree?color=04D361&labelColor=000000">
-  
-  <a href="https://github.com/johnggli/linktree/commits/master">
-    <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/johnggli/linktree?color=04D361&labelColor=000000">
-  </a>
-</p>
+## 💡 Demo ön izleme
 
-<p align="center">
-  <a href="#-about-the-project">About the project</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#-getting-started">Getting started</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#-how-to-contribute">How to contribute</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#-license">License</a>
-</p>
+- [Demo](https://x.vercel.app)
 
----
-
-<p align="center">
-  <img alt="screenshot" src="screenshot.png">
-</p>
-
----
-
-## 💡 About the project
-
-This is an open source project that serves as a free alternative to the Linktree website.
-- [Demo](https://johnggli.github.io/linktree)
-
-## 🚀 Getting started
-
-If you installed git you can clone the code to your machine, or download a ZIP of all the files directly.
-[Download the ZIP from this location](https://github.com/johnggli/linktree/archive/master.zip), or run the following [git](https://git-scm.com/downloads) command to clone the files to your machine:
+# Clone
 ```bash
-git clone https://github.com/johnggli/linktree
+git clone https://github.com/parsherr/x
 ```
-- Once the files are on your machine, open the _linktree_ folder in [Visual Studio Code](https://code.visualstudio.com/).
-- With the files open in Visual Studio Code, press the **Go Live** button at the bottom of the window to launch the files with [Live Server](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer).
-- Change the profile image and texts in the `index.html` file.
-- Change the colors and fonts in the `style.css` file.
-- To change the background, go to the `style.css` file on line 17, uncomment the code snippet and change the url to whatever image you want.
+- Projeyi indirdikten sonra vsc de açın : [Visual Studio Code](https://code.visualstudio.com/).
+- Vsc'de projeyi açtıktan sonra "live server" eklentisi ile index.html'ye sağ tıklayıp `go live` seçeneğini seçin [Live Server](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer).
+- Profil fotoğrafı ve yazıları `index.html` sayfasından değiştirin.
+- Sayfanın sağ üstündeki `Bu temayı sende dene`  butonunu `index.html` sayfasından silin.
+- Renk paleti ve isteğe bağlı oalrak stillemeleri `style.css` dosyasından düzenleyebilrisiniz .
+- Arka plan temasını değiştirmik için, öncelikle `style.css` dosyasında girin ve en istteki `--root` değişkenlerini değiştirin, buradan sayfayı istediğiniz gibi basitçe düzenleyebilirsiniz.
+- Örneğin bgColor1 sayfanın ortasında parlayan renk ve 2 ise sayfanın yanlarında karartı şeklinde duran renktir, root ile tüm sayfayı istediğiniz gibi düzeltebilirsiniz.
 
-## 🤔 How to contribute
+## 🤔  Nasıl katkıda bulunurum (contribute)
 
-- Fork this repository;
-- Create a branch with your feature: `git checkout -b my-feature`;
-- Commit your changes: `git commit -m "feat: my new feature"`;
-- Push to your branch: `git push origin my-feature`.
+- Bu repository'e Fork atın;
+- Branch oluşturun: `git checkout -b my-feature`;
+- Değişikliklerinizi commit edin: `git commit -m "feat: my new feature"`;
+- Branch 'inize Push edin: `git push origin my-feature`.
 
-Once your pull request has been merged, you can delete your branch.
 
 ## 📝 License
 
-This project is under the MIT license. See the [LICENSE](LICENSE.md) file for more details.
-
----
-
-Made with ❤️ by John Emerson :wave: [Get in touch](https://johnggli.github.io/linktree)
+Bu proje MIT lisansı kapsamı altındadır. buraya [LICENSE](LICENSE.md) göz atarak lisans detaylarını öğrenebilirsiniz..
